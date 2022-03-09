@@ -1,0 +1,13 @@
+p {
+text-align: center;
+}
+
+#p1,#p2,#p3,#p4 {
+    font-size: 2em;
+    color: rgb(255, 255, 255);       
+    border: 1em ;
+    padding: 1em; 
+    display: block;
+    width: 40%;
+    margin: auto;
+}
