@@ -28,3 +28,20 @@
     font-size: 350%; 
     color: rgb(220, 220, 220);
 }
+#p3{
+    float: right;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 30%;
+    height: 30%;
+    padding: 1%;
+    border-radius: 50%;
+    border-style: dashed;
+    border-color: white;
+}
+.p4{
+    color:rgb(255, 255, 255);
+    font-size: 150%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
