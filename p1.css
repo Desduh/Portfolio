@@ -1,15 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #p1{
     color: rgb(255, 255, 255); 
     display: block;
     width: 20%;
     margin: auto;
-    text-align: center;
     text-decoration: none;
-    font-size: 350%;      
+    text-align: center;
+    font-size: 500%;      
     padding-top: 5%;
     padding-bottom: 3%;
 }
-#p2{
+.p2{
     color: rgb(255, 255, 255); 
     display: block;
     width: 20%;
@@ -19,7 +24,7 @@
     font-size: 300%; 
     position:relative;
 }
-#p2:hover{
+.p2:hover{
     font-size: 350%; 
-    color: rgb(200, 200, 200);
+    color: rgb(220, 220, 220);
 }
