@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-#p1{
+.titulo{
     color: rgb(255, 255, 255); 
     display: block;
     width: 20%;
@@ -28,10 +28,10 @@
     font-size: 350%; 
     color: rgb(220, 220, 220);
 }
-#p3{
+#img{
     float: right;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 10%;
     width: 30%;
     height: 30%;
     padding: 1%;
@@ -39,10 +39,39 @@
     border-style: dashed;
     border-color: white;
 }
-.p4{
+.p-left{
+    float: left;
     color:rgb(255, 255, 255);
     font-size: 150%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-
+.p-right{
+    float: right;
+    color:rgb(255, 255, 255);
+    font-size: 150%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.p5{
+    color: rgb(255, 255, 255); 
+    text-decoration: none;
+    font-size: 150%; 
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 5%;
+    position:relative;
+}
+.p5:hover{
+    font-size: 200%; 
+    color: rgb(220, 220, 220);
+}
+#img-hobbies{
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    width: 15%;
+    padding: 1%;
+}
