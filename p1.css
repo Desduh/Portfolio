@@ -55,19 +55,6 @@
     margin-left: 10%;
     margin-right: 10%;
 }
-.p5{
-    color: rgb(255, 255, 255); 
-    text-decoration: none;
-    font-size: 150%; 
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 5%;
-    position:relative;
-}
-.p5:hover{
-    font-size: 200%; 
-    color: rgb(220, 220, 220);
-}
 #img-hobbies{
     margin-left: 10%;
     margin-right: 10%;
@@ -75,3 +62,7 @@
     width: 15%;
     padding: 1%;
 }
+#div-dimension{
+    height: 10vh;
+}
+
