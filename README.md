@@ -9,35 +9,37 @@
 </p>
 
 
-
 <div>
     <h2>Sobre:</h2>
     Feito por: Carlos Eduardo Falandes<br>
     Este portifolio contém informaçoes de maneira organizada sobre o "Eduardo", divididas em quatro abas, <a href="#Menu inicial">Menu inicial</a>, <a href="#About me">About me</a>, <a href="#Profissional">Profissional</a> e <a href="#Hobbies">Hobbies</a>
-    <dt>
-     <li>
+<dt>
+    <li>
         Menu incial
-        <img src="img\menu_inicial.png">
+        <br>
+        <img src="img\menu_inicial.PNG">
     </li>
     <br>
     <li>
         About me
         <br>
-        <img src="img\about_me.png">
+        <img src="img\about_me.PNG">
     </li>
     <br>
     <li>
         Profissional
         <br>
-        <img src="img\profissional.png">
+        <img src="img\profissional.PNG">
     </li>
     <br>
     <li>
         Hobbies
         <br>
-        <img src="img\hobbies.png"
+        <img src="img\hobbies.PNG"
     </li>
 </dt>
+</div>
+
 
 
 
