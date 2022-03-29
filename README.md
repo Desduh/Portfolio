@@ -52,8 +52,10 @@
     <dl>
         <li>Pasta doc: Comtém wireframe para mobile</li>
         <li>Pasta img: Comtém as imagens usadas nos aquivos em html</li>
+        <li>Pasta codigos: Comtém todos os códigos do site</li>
     </dl>
 </div>
+
 
 ​    
 
