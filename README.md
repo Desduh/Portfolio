@@ -2,11 +2,12 @@
 
 <h4 align="center">Esse projeto...</h4>
 <p align="center">
-    <a href="#sobre">Sobre</a>
-    <a href="#estrutura-do-repositório">Estrutura do repositório</a> 
-    <a href="#linguagens-usadas">Linguagens usadas</a>
+    <a href="#sobre">Sobre</a>  ▪️
+    <a href="#estrutura-do-repositório">Estrutura do repositório</a>  ▪️
+    <a href="#linguagens-usadas">Linguagens usadas</a>  ▪️
     <a href="#contatos">Contatos</a>
 </p>
+
 
 
 
