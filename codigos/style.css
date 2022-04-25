@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+.logo{
+    color: rgb(255, 255, 255); 
+    display: block;
+    width: 20%;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    font-size: 90px;      
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-family: 'Prompt', sans-serif;
+}
 .titulo{
     color: rgb(255, 255, 255); 
     display: block;
