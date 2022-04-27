@@ -4,10 +4,10 @@
     box-sizing: border-box;
     justify-content: space-around;
 }
-.logo,
 .titulo,
 .p2,
 .p-left,
+.caixa,
 .p-right{
     color: rgb(255, 255, 255);
     display: flex;
@@ -16,6 +16,22 @@
     font-size: 14vh;      
     padding: 10vh 0 6vh 0;
     font-family: 'Prompt', sans-serif;
+    display: block;
+    color: rgb(255, 255, 255);
+}
+.logo::after{
+    content: '|';
+    opacity: 0;
+    animation: pisca .7s;
+}
+@keyframes pisca {
+    0%,
+    100%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
 }
 .titulo{
     font-size: 12vh;      
