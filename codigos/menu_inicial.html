@@ -10,8 +10,8 @@
     </head>
     <body background="..\img\ceuzinho.gif">
         <div>
-            <div>
-                <b class="logo">Dunha</b>
+            <div class="caixa">
+                <b class="logo"> Dunha</b>
             </div>
             <div class="dimension">
                 <a class="p2" href="sobre_mim.html">Sobre mim</a><br>
@@ -23,5 +23,18 @@
                 <a class="p2" href="passatempo.html">Passatempo</a><br>
             </div>
         </div>
+        <script>
+            function typeWrite(elemento){
+                const texto = elemento.innerHTML.split('');
+                elemento.innerHTML = '';
+                texto.forEach((letra, i) => {
+                    setTimeout(function() {
+                        elemento.innerHTML += letra;
+                    }, 120 * i)
+                });
+            }
+            const titlo = document.querySelector('.logo');
+            typeWrite(titlo)
+        </script>
     </body>
 </html>
