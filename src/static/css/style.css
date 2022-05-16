@@ -7,14 +7,21 @@
 .titulo,
 .p2,
 .p-left,
-.caixa,
 .p-right{
     color: rgb(255, 255, 255);
     display: flex;
 }
+.caixa{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-top: 10vh;
+}
 .logo{
     font-size: 14vh;      
-    padding: 10vh 0 6vh 0;
+    padding-bottom: 6vh;
     font-family: 'Prompt', sans-serif;
     display: block;
     color: rgb(255, 255, 255);
@@ -35,7 +42,7 @@
 }
 .titulo{
     font-size: 12vh;      
-    padding: 5vh 0 6vh 0;
+    padding: 0vh 0 6vh 0;
 }
 .p2{
     text-align: center;
@@ -70,8 +77,19 @@
     border-style: dashed;
     border-color: white;
 }
-.material-symbols-outlined{
-    color: white;
-    text-decoration: none;
-    padding: 4vh 0 0 3vh;
+.voltar{
+    display: flex;
+    justify-content: flex-start;
+    padding: 3vh 0 0 3vh;
+}
+.img_voltar{
+    width: 20vh;
+}
+.logo_img{
+    width: 30vh;
+}
+.div_logo{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-content: center;
 }
