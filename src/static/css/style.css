@@ -68,12 +68,11 @@
     margin-left: 10%;
     margin-right: 10%;
 }
-#img{
+.img{
     float: right;
     margin-right: 10vw;
     width: 30vw;
     padding: 1%;
-    border-radius: 50%;
     border-style: dashed;
     border-color: white;
 }
