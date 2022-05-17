@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+import datetime
 
 app = Flask('__name__') 
 
@@ -18,4 +19,18 @@ def profissional():
 
 @app.route('/sobre_mim')
 def sobre():
-    return render_template('sobre_mim.html')
+    date = datetime.date.today()
+    year = int(date.strftime("%Y"))
+    month = int(date.strftime("%m"))
+    day = int(date.strftime("%d"))
+
+    if month == 6:
+            if day >= 7:
+                old = year - 2004
+    else:
+        if month >= 6:
+            old = year - 2004
+        else:
+            old = year - 2005
+        
+    return render_template('sobre_mim.html', old=old)
