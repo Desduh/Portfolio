@@ -92,3 +92,49 @@
     display: flex;
     align-content: center;
 }
+
+
+@media screen and (max-width: 900px) {
+    .img{
+        float: none;
+        margin: 0 0 10vh 0;
+        width: 40vw;
+    }
+    .res{
+        display: flex;
+        justify-content: center;
+    }
+    .logo_img{
+        width: 25vh;
+    }
+    .logo{
+        font-size: 10vh;     
+    }
+    .p2{
+        font-size: 7vh;
+    }
+    .p2:hover{
+        font-size: 8vh; 
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .img{
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .img{
+        width: 60vw;
+    }
+    .img_voltar{
+        width: 15vh;
+    }
+    .titulo{
+        font-size: 9vh;
+    }
+    .p-left{
+        font-size: 3vh;
+    }
+}
