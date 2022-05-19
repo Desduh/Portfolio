@@ -34,3 +34,6 @@ def sobre():
             old = year - 2005
         
     return render_template('sobre_mim.html', old=old)
+
+if __name__ == '__main__':
+    app.run('0.0.0.0')
