@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for
+from flask import app, Flask, render_template, url_for
 import datetime
 
 app = Flask(__name__)
