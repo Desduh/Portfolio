@@ -1,71 +1,46 @@
-<h1>Portifilio</h1><br>
+# Exemplificando a Implantação utilizando o Heroku
 
-<h4 align="center">Esse projeto...</h4>
-<p align="center">
-    <a href="#sobre">Sobre</a>  ▪️
-    <a href="#estrutura-do-repositório">Estrutura do repositório</a>  ▪️
-    <a href="#tecnologias-usadas">Tecnologias usadas</a>  ▪️
-    <a href="#contatos">Contatos</a>
-</p>
+## Fabrício Galende M. de Carvalho
 
+Para testar e implantar esse sistema:
 
+I. Teste de execução local:
+1. Clonar o repositório
+2. Criar um ambiente virtual
+```console
+virtualenv env
+```
+3. Ativar o ambiente virtual (no windows o arquivo é o .bat):
+```console
+env/Scripts/activate.bat
+```
+4. Instalar as dependências:
+```console
+pip install -r requirements.txt
+```
+5. Executar a aplicação
+```console
+python src/app.py
+```
 
+II. Implantar no Heroku (supondo que já tenha a conta na plataforma)
 
-
-<div>
-    <h2>Sobre:</h2>
-    Feito por: Carlos Eduardo Falandes<br>
-    Este portifolio contém informaçoes de maneira organizada sobre o "Eduardo", divididas em quatro abas, Menu inicial ,Sobre mim, Profissional e Passatempo.
-    <br>
-    <br>
-    <img src="src\static\imgs\telas.gif">
-</div>
-
-
-
-
-
-<div>
-    <h2>Estrutura do repositório</h2>
-    <li>Pasta src: <br>
-        /templates: contém as páginas do site; <br>
-        /static/imgs: contém as imagens; <br>
-        /static/css: contém os arquivos de estilização em css;<br>
-        app.py com os códigos em Flask para rodar o site.<br>
-        <br>
-    <li>Pasta doc: <br>
-        wireframe contém o projeto das páginas.<br>
-        <br>
-    <li>README.md contém o detalhamento do site.<br>
-        <br>
-    <li>requirements.txt
-</div>
-
-
-
-
-
-<div>
-    <h2>Tecnologias usadas:</h2>
-    <img src="src\static\imgs\tecnologias.png">
-</div>
+1. Efetuar o login no Heroku
+```console
+heroku login
+```
+2. Criar uma aplicação / repositório remoto do Heroku
+```console
+heroku create nome-sua-aplicacao
+```
+3. Vincular ao repositório do Git o repositório do Heroku
+```console
+heroku git:remote -a meu-sistema
+```
+4. Enviar ao repositório do Heroku o conteúdo do repo local
+```console
+git push heroku master:main
+```
 
 
 
-
-
-<div>
-    <h2>Contato</h2>
-    <dt>
-        <li>
-            Email: carlos.falandes@fatec.sp.gov.br
-        </li>
-    </dt>
-</div>
-
-
-
-
-
-
-<p align="center">Em desenvolvimento...<p>
